@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/js/dist/dropdown";
 import './index.css';
-import App from './App';
+import YFolio from './YFolio';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <YFolio />
   </React.StrictMode>,
   document.getElementById('root')
 );
