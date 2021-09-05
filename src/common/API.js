@@ -19,12 +19,7 @@ async function _fetch(URL) {
   return response.text(); // parses JSON response into native JavaScript objects
 }
 
-export async function fetchTokenInfo(tokenId) {
+export async function fetchCoinInfo(tokenId) {
   const url = `${CG_COINS_URL}/${tokenId}/?tickers=false&&community_data=false&&developer_data=false&&localization=false`;
-  return await _fetch(url);
-}
-
-export async function fetchTokenList() {
-  const url = `${BACKEND_ENDPOINT}/tokens`;
   return await _fetch(url);
 }

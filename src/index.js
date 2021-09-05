@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/js/dist/dropdown";
 import './index.css';
-import YFolio from './YFolio';
+import CoinKit from './CoinKit';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <YFolio />
+    <CoinKit />
   </React.StrictMode>,
   document.getElementById('root')
 );
